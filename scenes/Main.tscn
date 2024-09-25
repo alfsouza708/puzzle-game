@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://1e4wms4lviw0"]
+
+[ext_resource type="Script" path="res://scripts/Main.cs" id="1_ak5du"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_vgfwr"]
+size = Vector2(64, 64)
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ak5du")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("PlaceholderTexture2D_vgfwr")
+centered = false
